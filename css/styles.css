@@ -55,6 +55,14 @@ body{
     color: #000;
 }
 
+.nav-item a:hover{
+    color: #000;
+}
+
+.nav-item a:active{
+    color: #000;
+}
+
 #pills-profile-tab{
     color: white;
     background-color: #000;
@@ -64,6 +72,11 @@ table th{
     color: #000;
 }
 
-#pills-contact .nav-link{
+#pills-collection .nav-link{
     background-color: red;
+}
+
+.nav-pills .nav-link.active{
+    color: #000;
+    background-color: transparent;
 }
